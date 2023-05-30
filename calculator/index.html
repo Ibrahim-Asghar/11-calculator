@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title> A Calculator </title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="utils.css" rel="stylesheet" type="text/css" />
+  
+</head>
+
+<body>
+  
+  <font color="white" >
+  <h1 class="text-center"> Calculator by Ibrahim</h1>
+  </font>
+
+
+  <div class="container flex flex-col items-center mx-auto m-w-20">
+
+    <div class="row">
+
+      <input type="text" id="display" readonly>
+
+
+      <!-- <input class="input" type="text"/> -->
+
+    </div>
+
+    <div class="row">
+
+      <button class="button" onclick="handleClick('AC')">AC</button>
+      <!-- <button class="button">%</button>
+      <button class="button">M+</button>
+      <button class="button">M-</button> -->
+
+    </div>
+
+    <div class="row">
+      
+       <button class="button" onclick="handleClick('7')">7</button>
+      <button class="button"onclick="handleClick('8')">8</button>
+      <button class="button"onclick="handleClick('9')">9</button>
+      <button class="button"onclick="handleClick('*')">*</button>
+
+    </div>
+
+    <div class="row">
+
+      <button class="button"onclick="handleClick('4')">4</button>
+      <button class="button"onclick="handleClick('5')">5</button>
+      <button class="button"onclick="handleClick('6')">6</button>
+      <button class="button"onclick="handleClick('/')">/</button>
+
+    </div>
+
+    <div class="row">
+
+      <button class="button"onclick="handleClick('1')">1</button>
+      <button class="button"onclick="handleClick('2')">2</button>
+      <button class="button"onclick="handleClick('3')">3</button>
+      <button class="button"onclick="handleClick('+')">+</button>
+
+    </div>
+
+    <div class="row">
+
+      <button class="button"onclick="handleClick('0')">0</button>
+      <button class="button"onclick="handleClick('.')">.</button>
+      <button class="button"onclick="handleClick('=')">=</button>
+      <button class="button"onclick="handleClick('-')">-</button>
+
+    </div>
+
+  </div>
+
+  
+  <script src="script.js"></script>
+
+</body>
+
+</html>
